@@ -111,7 +111,7 @@ p.tellme {
     font-size: 11px;
     font-weight: 800;
     text-shadow: 1px 1px 1px #3d3d3d;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: rgb(255, 255, 255);
     -webkit-font-smoothing: antialiased;
 }
