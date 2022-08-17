@@ -9,7 +9,7 @@
     font-family: 'Rancho';
 }
 #mainheading{
-    font-family: 'Beautiful Magic', sans-serif;
+    font-family: 'Beautiful Magic', sans-serif !important;
 }
 
 /* Pop-Up */
@@ -86,7 +86,7 @@ a.close:hover {
 .holloween_btn {
     position: relative;
     display: inline-block;
-    height: 39px;
+    height: 39px;'Beautiful Magic', sans-serif;
     width: 92px;
     margin: 2px;
     border-radius: 20px 40px 20px 40px;
