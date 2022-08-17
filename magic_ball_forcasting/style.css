@@ -1,22 +1,12 @@
 /* Result Output font Effects */
 @import "https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation";
 @import url('http://fonts.cdnfonts.com/css/beautiful-magic');
-@font-face {
-    font-family: 'Beautiful Magic';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Beautiful Magic'), url('https://fonts.cdnfonts.com/s/62343/BeautifulMagic-p74OK.woff') format('woff');
-}
 #resultId {
     margin-top: -1em;
     font-size: 30px;
     letter-spacing: 2px;
     font-family: 'Rancho';
 }
-#mainheading{
-    font-family: 'Beautiful Magic';
-}
-
 /* Pop-Up */
 .model_popup {
     transition: display 2s;
@@ -291,6 +281,9 @@ footer.row.footer {
     div#maincontent {
         padding-bottom: 4rem;
         background-color: rgb(0 0 0 / 58%) !important;
+    }
+    footer p{
+        font-size: 11px;
     }
 }
 
